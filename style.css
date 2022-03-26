@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Mono', sans-serif;
+}
+
+/* 
+color-
+primary - black;
+secondary - #334756
+tertiary - #F4A442;
+primary-back - white
+seconday background - #334756
+tertailry back - #99A799
+*/
+nav{
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-width: 30%;
+    margin: auto 0;
+}
+
+nav ul li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: #334756;
+    text-decoration: underline ;
+}
+
+nav h3{
+    font-family: 'Red Hat Mono',arial;
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.name span{
+    color: #F4A442;
+}
+
+.about-me{
+    width: 60%;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.about-me h1{
+    font-size: 30px;
+}
+
+.about-me h1 span{
+    color: #F4A442;
+}
+
+.about-content{
+    padding-top: 5vh;
+    line-height: 30px;
+    margin-bottom: 5vh;
+}
+
+.about-para{
+    color: white;
+    padding: 5px;
+    background-color: #F4A442;
+}

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Mono', sans-serif;
@@ -13,7 +13,7 @@ primary-back - white
 seconday background - #334756
 tertailry back - #99A799
 */
-nav{
+nav {
     width: 80%;
     margin: auto;
     padding-top: 15px;
@@ -35,43 +35,44 @@ nav ul li {
     cursor: pointer;
 }
 
-nav ul li:hover{
+nav ul li:hover {
     color: #334756;
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 
-nav h3{
-    font-family: 'Red Hat Mono',arial;
+nav h3 {
+    font-family: 'Red Hat Mono', arial;
     font-size: 26px;
     padding-left: 10px;
 }
 
-.name span{
+.name span {
     color: #F4A442;
 }
 
-.about-me{
+.about-me {
     width: 60%;
     margin: auto;
     padding-top: 45px;
 }
 
-.about-me h1{
+.about-me h1 {
     font-size: 30px;
 }
 
-.about-me h1 span{
+.about-me h1 span {
     color: #F4A442;
 }
 
-.about-content{
+.about-content {
     padding-top: 5vh;
     line-height: 30px;
     margin-bottom: 5vh;
 }
 
-.about-para{
+.about-para {
     color: white;
     padding: 5px;
     background-color: #F4A442;
+    margin-bottom: 10rem;
 }
